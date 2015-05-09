@@ -1,0 +1,60 @@
+/*404 Page Not Found*/
+* { padding: 0; margin: 0;}
+body {width: 100%; background-color: #000; font-size: 100%; background-image: url('../images/404/404_bg.jpg'); background-position: center center; background-repeat: no-repeat; background-attachment: fixed;
+    /*Full BG*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+#logo {width: 8em; display: block; margin: 0 auto; position: relative; top: 2em;}
+#container {width: 95%; margin: 0 auto; text-align: center; padding: 3% 0; clear: both; position: relative; top: 50%;}
+#text {padding: 10% 0;}
+h1, span {color: #FFE6DA; width: inherit;}
+h1 {font-size: 8em; text-transform: uppercase; display: inline;}
+span {padding: 0 0 5% 0; color: #FFE6DA;}
+#tag {display: block;font-size: 1.2em; font-family: Helvetica, Arial; margin-top: 1%; font-weight: bold; clear: both; padding-bottom: 5%;}
+hr {height: .6em; background-color: #000; opacity:.2; display: block; width: 53em; margin: 0 auto;}
+/*Button*/
+a {border: none; text-decoration: none; font-family: 'BebasNeueRegular', Helvetica, Arial; color: white; background-color:#F54C00; padding: .4em 1em .3em 1em; font-size: 2em; clear:both;
+    -webkit-box-shadow: 1px 1px 11px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow:    1px 1px 11px rgba(50, 50, 50, 0.2);
+    box-shadow:         1px 1px 11px rgba(50, 50, 50, 0.2);}
+a:hover {color: white; background-color: #F43D00;
+    -webkit-box-shadow: 1px 1px 11px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    1px 1px 11px rgba(50, 50, 50, 0.5);
+    box-shadow:         1px 1px 11px rgba(50, 50, 50, 0.5);}
+pre {
+  margin-top: 40px;
+  background-color : white;
+}
+/*Media Queries*/
+@media only screen and (min-width: 0px) and (max-width: 380px) {
+    body {font-size: .4em;}
+}
+
+@media only screen and (min-width : 380px) {
+    body {font-size: .6em;}
+    #logo {width: 8em;}
+}
+
+@media only screen and (min-width : 768px) {
+    body {font-size: .8em;}
+    #logo {width: 8em;}
+}
+
+@media only screen and (min-width : 1224px) {
+    body {font-size: 1em;}
+    #logo {width: 10em;}
+}
+
+@media only screen and (min-width : 1824px) {
+    body {font-size: 1.4em;}
+    #logo {width: 10em;}
+
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

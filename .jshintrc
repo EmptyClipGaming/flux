@@ -1,0 +1,12 @@
+{
+  "node": true,
+  "esnext": true,
+  "eqeqeq": true,
+  "globalstrict": true,
+  "maxcomplexity": 7,
+  "maxdepth": 4,
+  "undef": true,
+  "globals": {
+    "Promise": true
+  }
+}
