@@ -1,6 +1,7 @@
 {
   "node": true,
   "esnext": true,
+  "browser": true,
   "eqeqeq": true,
   "globalstrict": true,
   "maxcomplexity": 7,

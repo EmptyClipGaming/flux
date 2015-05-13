@@ -1,1 +1,2 @@
 web: node-dev index.js
+watch: gulp watch
